@@ -11,4 +11,6 @@ mongoose.connect(
     else console.log(`database connected successfully`);
   }
 );
-app.listen(PORT, () => console.log(`express server run at port ${PORT}`));
+app.listen(PORT, () => {
+  console.log(`express server run at port ${PORT}`);
+});

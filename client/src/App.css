@@ -1,0 +1,28 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+*:not(i) {
+  font-family: "Roboto", sans-serif !important;
+}
+*:focus {
+  outline: none !important;
+}
+body{
+    overflow: hidden !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+i {
+  cursor: pointer;
+}
+a,
+li {
+  text-decoration: none !important;
+  list-style: none;
+}
+body {
+  min-height: 100vh;
+}

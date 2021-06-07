@@ -1,0 +1,60 @@
+.nav-pills .nav-item .nav-link,
+.admin-panel h3 {
+  font-weight: 700 !important;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #000;
+  border-bottom: 2px solid #007bff;
+  background-color: transparent !important;
+}
+.btn-hover {
+  width: 180px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px;
+  height: 50px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-hover:focus {
+  outline: none;
+}
+.btn-hover.color-9 {
+  background-image: linear-gradient(
+    to right,
+    #25aae1,
+    #4481eb,
+    #04befe,
+    #3f86ed
+  );
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+.content-view {
+  background-color: #ebf3fb;
+  border: 1px solid dodgerblue;
+  border-radius: 10px;
+}
+.tag {
+  background-color: dodgerblue !important;
+  color: white;
+  font-weight: 600;
+  padding: 5px;
+  width: fit-content;
+  border-radius: 5px;
+}
